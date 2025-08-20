@@ -8,7 +8,7 @@
 
 ### From The Book
 
-- [ ] Project 1 - Simul's Test
+- [x] Project 1 - Simul's Test
   - Simulate the locking mechanism of a chest.
   - Define an enumeration for the state of the chest.
   - Make a variable whose type is this new enumeration.
@@ -25,7 +25,22 @@ commands, but ensure that you don’t transition between states that don’t support
     ![The chests lock-states](images/lockStates.png)
 
 
-Chapter 17: Tuples
+## Chapter 17: Tuples
+
+### From The Book
+- [x] Project 1 - Simula's Soup
+  - Define enumerations for the three variations on food: type (soup, stew, gumbo), main ingredient
+(mushrooms, chicken, carrots, potatoes), and seasoning (spicy, salty, sweet).
+  - Make a tuple variable to represent a soup composed of the three above enumeration types.
+  - Let the user pick a type, main ingredient, and seasoning from the allowed choices and fill the tuple
+with the results. Hint: You could give the user a menu to pick from or simply compare the user’s
+text input against specific strings to determine which enumeration value represents their choice.
+  - When done, display the contents of the soup tuple variable in a format like “Sweet Chicken Gumbo.”
+Hint: You don’t need to convert the enumeration value back to a string. Simply displaying an
+enumeration value with Write or WriteLine will display the name of the enumeration value.)
+
+### From ChatGPT
+
     1. Return Stats – Return min, max, average from method.
     2. Split Name – Return (first, last) from full name.
     3. Rectangle Info – Return area and perimeter as tuple.
