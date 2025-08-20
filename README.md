@@ -47,13 +47,10 @@ enumeration value with Write or WriteLine will display the name of the enumerati
 - [x] Project 3 - Split Name
   - Return (first, last) from full name.
     
-- [ ] Project 4 - Rectangle Info
+- [x] Project 4 - Rectangle Info
   - Return area and perimeter as tuple.
-    
-- [ ] Project 5 - 4. Get System Info
-  - Return OS, processor, and memory.
 
-- [ ] Project 6 - Coordinate Finder
+- [x] Project 5 - Coordinate Finder
   - Return (x, y) from direction input.
 
   
