@@ -44,7 +44,7 @@ enumeration value with Write or WriteLine will display the name of the enumerati
 - [x] Project 2 - Return Stats
   - Return min, max, average from method.
     
-- [ ] Project 3 - Split Name
+- [x] Project 3 - Split Name
   - Return (first, last) from full name.
     
 - [ ] Project 4 - Rectangle Info
