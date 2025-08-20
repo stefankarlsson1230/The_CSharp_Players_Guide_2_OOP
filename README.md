@@ -41,12 +41,22 @@ enumeration value with Write or WriteLine will display the name of the enumerati
 
 ### From ChatGPT
 
-    1. Return Stats – Return min, max, average from method.
-    2. Split Name – Return (first, last) from full name.
-    3. Rectangle Info – Return area and perimeter as tuple.
-    4. Get System Info – Return OS, processor, and memory.
-    5. Coordinate Finder – Return (x, y) from direction input.
+- [x] Project 2 - Return Stats
+  - Return min, max, average from method.
+    
+- [ ] Project 3 - Split Name
+  - Return (first, last) from full name.
+    
+- [ ] Project 4 - Rectangle Info
+  - Return area and perimeter as tuple.
+    
+- [ ] Project 5 - 4. Get System Info
+  - Return OS, processor, and memory.
 
+- [ ] Project 6 - Coordinate Finder
+  - Return (x, y) from direction input.
+
+  
 Chapter 18: Classes
     1. Create Player – With name, level, and score.
     2. Create Book – Title, author, pages.
