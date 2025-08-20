@@ -4,12 +4,25 @@
 ## Chapter 15: Object-Oriented Concepts
 - No assignments for this chapter.
 
-Chapter 16: Output Parameters
-    1. TryDivide – Safely divide with output result and success flag.
-    2. Parse Height – Convert string to float via output.
-    3. GetDate – Return day, month, year via out parameters.
-    4. Swap – Swap two integers using out.
-    5. GetStats – Output sum and average of 3 numbers.
+## Chapter 16: Enumerations
+
+### From The Book
+
+- [ ] Project 1 - Simul's Test
+  - Simulate the locking mechanism of a chest.
+    ![The chests lock-states](images/lockState.png)
+  - Define an enumeration for the state of the chest.
+  - Make a variable whose type is this new enumeration.
+  - Write code to allow you to manipulate the chest with the lock, unlock, open, and close
+commands, but ensure that you don’t transition between states that don’t support it.
+  - Loop forever, asking for the next command.
+  - The program below shows what using this might look like:
+    ```
+    The chest is locked. What do you want to do? unlock
+    The chest is unlocked. What do you want to do? open
+    The chest is open. What do you want to do? close
+    The chest is unlocked. What do you want to do?
+    ```
 
 Chapter 17: Tuples
     1. Return Stats – Return min, max, average from method.
