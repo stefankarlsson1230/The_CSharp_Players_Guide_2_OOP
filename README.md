@@ -10,7 +10,6 @@
 
 - [ ] Project 1 - Simul's Test
   - Simulate the locking mechanism of a chest.
- ![The chests lock-states](images/lockStates.png)
   - Define an enumeration for the state of the chest.
   - Make a variable whose type is this new enumeration.
   - Write code to allow you to manipulate the chest with the lock, unlock, open, and close
@@ -23,6 +22,8 @@ commands, but ensure that you don’t transition between states that don’t support
     The chest is open. What do you want to do? close
     The chest is unlocked. What do you want to do?
     ```
+    ![The chests lock-states](images/lockStates.png)
+
 
 Chapter 17: Tuples
     1. Return Stats – Return min, max, average from method.
