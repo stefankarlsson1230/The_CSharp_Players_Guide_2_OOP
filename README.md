@@ -1,12 +1,8 @@
 # The C# Player's Guide - Part 2: Object Oriented Programming
 
 
-Chapter 15: Input Parameters
-    1. Greet by Name – Method with a name parameter.
-    2. Circle Area – Pass radius to compute area.
-    3. Max of Three – Find largest of three numbers.
-    4. Full Name Builder – Return full name from first and last.
-    5. Repeat Message – Print a message n times.
+## Chapter 15: Object-Oriented Concepts
+- No assignments for this chapter.
 
 Chapter 16: Output Parameters
     1. TryDivide – Safely divide with output result and success flag.
