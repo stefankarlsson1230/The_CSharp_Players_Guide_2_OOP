@@ -10,7 +10,7 @@
 
 - [ ] Project 1 - Simul's Test
   - Simulate the locking mechanism of a chest.
-    ![The chests lock-states](images/lockState.png)
+    ![The chests lock-states](images/lockStates.png)
   - Define an enumeration for the state of the chest.
   - Make a variable whose type is this new enumeration.
   - Write code to allow you to manipulate the chest with the lock, unlock, open, and close
