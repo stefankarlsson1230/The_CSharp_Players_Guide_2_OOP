@@ -71,14 +71,15 @@ arrowhead types and fletching types might be good enumerations.)
     - Add a GetCost method that returns its cost as a float based on the numbers above, and use this
 to display the arrow’s cost.
 
-### FRom ChatGPT
+### From ChatGPT
+- [x] Project 2
+  - Create Player – With name, level, and score.
+  - Create Book – Title, author, pages.
+  - Display Object Info – Print object data with method.
+  - Compare Two Books – Check which has more pages.
+  - Inventory List – Use class to hold multiple item objects.
 
-    1. Create Player – With name, level, and score.
-    2. Create Book – Title, author, pages.
-    3. Display Object Info – Print object data with method.
-    4. Compare Two Books – Check which has more pages.
-    5. Inventory List – Use class to hold multiple item objects.
-
+  
 Chapter 19: Fields
     1. Store Weapon Stats – Damage, range, cost.
     2. Create Multiple Objects – Create and compare players.
