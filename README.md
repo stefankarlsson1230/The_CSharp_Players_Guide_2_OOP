@@ -83,7 +83,7 @@ to display the arrow’s cost.
 ## Chapter 19: Information Hiding
 
 ### From The Book
-- [ ] Project 1 - Vin’s Trouble
+- [x] Project 1 - Vin’s Trouble
   - Modify your Arrow class to have private instead of public fields.
   - Add in getter methods for each of the fields that you have.
 
