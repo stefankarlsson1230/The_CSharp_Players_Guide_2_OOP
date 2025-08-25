@@ -75,22 +75,9 @@ class Arrow
     }
 
     // Getters & Setters
-    public void SetArrowHead(Arrowhead arrowhead)
-    {
-        this.arrowhead = arrowhead;
-    }
-
-    public void SetFletching(Fletching fletching)
-    {
-        this.fletching = fletching;
-    }
-
-    public void SetShaft(int shaft)
-    {
-        this.shaft = shaft;
-    }
-
-
+    public void SetArrowHead(Arrowhead arrowhead) => this.arrowhead = arrowhead;
+    public void SetFletching(Fletching fletching) => this.fletching= fletching;
+    public void SetShaft(int shaft) => this.shaft = shaft;
 
     public Arrowhead GetArrowhead() => arrowhead;
     public Fletching GetFletching() => fletching;
