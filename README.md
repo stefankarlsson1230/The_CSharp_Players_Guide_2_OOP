@@ -80,12 +80,14 @@ to display the arrow’s cost.
   - Inventory List – Use class to hold multiple item objects.
 
   
-Chapter 19: Fields
-    1. Store Weapon Stats – Damage, range, cost.
-    2. Create Multiple Objects – Create and compare players.
-    3. Initialize via Constructor – Create object with data.
-    4. Update Field – Change player’s level mid-game.
-    5. Field Summary – Print summary of all fields.
+## Chapter 19: Information Hiding
+
+### From The Book
+- [ ] Project 1 - Vin’s Trouble
+  - Modify your Arrow class to have private instead of public fields.
+  - Add in getter methods for each of the fields that you have.
+
+
 
 Chapter 20: Properties
     1. Auto Property Player – Add Health, Mana, XP.

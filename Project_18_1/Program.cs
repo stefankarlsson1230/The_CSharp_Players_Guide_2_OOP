@@ -11,9 +11,6 @@
 //  - Allow a user to pick the arrowhead, fletching type, and length and then create a new Arrow instance.
 //  - Add a GetCost method that returns its cost as a float based on the numbers above, and use this to display the arrow’s cost.
 
-
-using System.Runtime.InteropServices;
-
 Arrow arrow = new();
 int input = -1;
 
