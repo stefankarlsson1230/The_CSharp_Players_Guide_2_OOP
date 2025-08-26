@@ -96,11 +96,14 @@ to display the arrow’s cost.
   - Ensure the whole program can still run.
 
 ### From ChatGPT
-    1. Auto Property Player – Add Health, Mana, XP.
-    2. Read-Only ID – Use get only for a unique ID.
-    3. Validation – Set Age but block < 0.
-    4. Property Method – Calculate IsAlive from Health.
-    5. Display All Properties – Loop and print them.
+- [x] Project 2
+  - Auto Property Player – Add Health, Mana, XP.
+  - Read-Only ID – Use get only for a unique ID.
+  - Validation – Set Age but block < 0.
+  - Property Method – Calculate IsAlive from Health.
+  - Display All Properties – Loop and print them.
+
+
 
 Chapter 21: The Catacombs of the Class
     1. Create Point – With X and Y fields.
