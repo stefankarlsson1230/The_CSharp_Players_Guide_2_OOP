@@ -88,8 +88,14 @@ to display the arrow’s cost.
   - Add in getter methods for each of the fields that you have.
 
 
+## Chapter 20: Properties
 
-Chapter 20: Properties
+### From The Book
+- [x] Project 1 - The Properties of Arrows
+  - Modify your Arrow class to use properties instead of GetX and SetX methods.
+  - Ensure the whole program can still run.
+
+### From ChatGPT
     1. Auto Property Player – Add Health, Mana, XP.
     2. Read-Only ID – Use get only for a unique ID.
     3. Validation – Set Age but block < 0.
