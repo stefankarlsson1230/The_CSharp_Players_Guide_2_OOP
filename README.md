@@ -126,7 +126,7 @@ about the desired arrow.
 ## Chapter 22: Null References
 
 ### From ChatGPT
-- [ ] Project 1
+- [x] Project 1
   - Null Name Check – Warn if name is null.
   - Default Description – Use null-coalescing.
  
