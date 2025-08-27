@@ -123,13 +123,14 @@ methods. If they choose to make a custom arrow, use your earlier code to get the
 about the desired arrow.
 
 
+## Chapter 22: Null References
 
-Chapter 22: Null References
-    1. Null Name Check – Warn if name is null.
-    2. Default Description – Use null-coalescing.
-    3. Safe Access – Avoid null when calling .ToString().
-    4. Inventory with Null – Represent empty slots.
-    5. Null-Safe Print – Print message only if not null.
+### From ChatGPT
+- [ ] Project 1
+  - Null Name Check – Warn if name is null.
+  - Default Description – Use null-coalescing.
+ 
+
 
 Chapter 23: Object-Oriented Design
     1. Create 3 Classes – For a game (e.g., Player, Item, Enemy).
