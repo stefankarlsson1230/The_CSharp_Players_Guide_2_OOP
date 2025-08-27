@@ -131,13 +131,9 @@ about the desired arrow.
   - Default Description – Use null-coalescing.
  
 
+## Chapter 23: Object-Oriented Design
+- No assignments for this chapter.
 
-Chapter 23: Object-Oriented Design
-    1. Create 3 Classes – For a game (e.g., Player, Item, Enemy).
-    2. UML Draft – Draw diagram before coding.
-    3. Use Case Simulation – Simulate basic interaction.
-    4. Constructor Design – Pass data between classes.
-    5. Refactor Duplicate Code – Apply DRY principles.
 
 Chapter 24: Catacombs Continued
     1. Point Methods – Add Distance() and Translate() to Point.
