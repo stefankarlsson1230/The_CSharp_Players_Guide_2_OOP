@@ -138,13 +138,26 @@ about the desired arrow.
 ## Chapter 24: The Catacombs of the Class
 
 ### From The book
-- [ ] Project 1 - the Point
+- [x] Project 1 - the Point
   - Define a new Point class with properties for X and Y.
   - Add a constructor to create a point from a specific x- and y-coordinate.
   - Add a parameterless constructor to create a point at the origin (0, 0).
   - In your main method, create a point at (2, 3) and another at (-4, 0). Display these points on the
 console window in the format (x, y) to illustrate that the class works.
   - Answer this question: Are your X and Y properties immutable? Why did you choose what you did?
+
+- [x] Project 2 - The Color
+  - Create a Color class to represent a color. The color consists of three parts or channels: red, green, and blue, 
+which indicate how much those channels are lit up. Each channel can be from 0 to 255. 0 means completely off; 
+255 means completely on.
+  - These are commonly used colors: White (255, 255, 255), Black (0, 0, 0), Red (255, 0, 0),
+Orange (255,165, 0), Yellow (255, 255, 0), Green (0, 128, 0), Blue (0, 0, 255), Purple (128, 0, 128).
+  - Objectives:
+    - Define a new Color class with properties for its red, green, and blue channels.
+    - Add appropriate constructors that you feel make sense for creating new Color objects.
+    - Create static properties to define the eight commonly used colors for easy access.
+    - In your main method, make two Color-typed variables. Use a constructor to create a color instance
+and use a static property for the other. Display each of their red, green, and blue channel values.
 
 
 ### From ChatGPT
