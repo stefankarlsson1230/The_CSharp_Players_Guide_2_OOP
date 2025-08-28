@@ -1,8 +1,4 @@
 ﻿
-//      - In your main method, make two Color-typed variables. Use a constructor to create a color instance and use
-//        a static property for the other. Display each of their red, green, and blue channel values.
-
-
 Color a = new(50, 150, 250);
 Color b = Color.Orange;
 

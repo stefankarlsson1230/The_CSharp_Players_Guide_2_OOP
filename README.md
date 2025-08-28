@@ -144,7 +144,6 @@ about the desired arrow.
   - Add a parameterless constructor to create a point at the origin (0, 0).
   - In your main method, create a point at (2, 3) and another at (-4, 0). Display these points on the
 console window in the format (x, y) to illustrate that the class works.
-  - Answer this question: Are your X and Y properties immutable? Why did you choose what you did?
 
 - [x] Project 2 - The Color
   - Create a Color class to represent a color. The color consists of three parts or channels: red, green, and blue, 
@@ -158,6 +157,16 @@ Orange (255,165, 0), Yellow (255, 255, 0), Green (0, 128, 0), Blue (0, 0, 255), 
     - Create static properties to define the eight commonly used colors for easy access.
     - In your main method, make two Color-typed variables. Use a constructor to create a color instance
 and use a static property for the other. Display each of their red, green, and blue channel values.
+
+- [x] Project 3 - The Card
+  - Each card has a color (red, green, blue, yellow) and a rank (the numbers 1 through 10, followed by the symbols $, %, ^, and &). Create a class to represent a card of this nature.
+  - Objectives:
+    - Define enumerations for card colors and card ranks.
+    - Define a Card class to represent a card with a color and a rank, as described above.
+    - Add properties or methods that tell you if a card is a number or symbol card (the equivalent of a
+face card).
+    - Create a main method that will create a card instance for the whole deck (every color with every
+rank) and display each (for example, “The Red Ampersand” and “The Blue Seven”).
 
 
 ### From ChatGPT
