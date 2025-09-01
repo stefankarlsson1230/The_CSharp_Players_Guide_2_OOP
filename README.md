@@ -191,7 +191,7 @@ current passcode and new passcode. Only change the passcode if the current passc
 the user to attempt the four transitions described above (open, close, lock, unlock) and change the
 code by typing in text commands.
 
-- [ ] Project 5 - The Password Validator
+- [x] Project 5 - The Password Validator
   - You must create a class that can determine if a password is valid (meets the rules
 defined for a legitimate password).The following rules must apply:
     - Passwords must be at least 6 letters long and no more than 13 letters long.
@@ -206,12 +206,30 @@ password follows the rules above.
       - Make your main method loop forever, asking for a password and reporting whether the password is
 allowed using an instance of the PasswordValidator class.
 
-### From ChatGPT
-    1. Point Methods – Add Distance() and Translate() to Point.
-    2. Color Methods – Add RGB to grayscale converter.
-    3. Card Game – Simulate one card draw.
-    4. Door with Lock State – Add IsLocked logic.
-    5. Password System – Store and check multiple passwords.
+- [x] Project 6 - Tic-Tac-Toe
+  - Your job is to recreate the game of Tic-Tac-Toe, allowing two players to compete against each other. The
+following features are required:
+    - Two human players take turns entering their choice using the same keyboard.
+    - The players designate which square they want to play in. Hint: You might consider using the number
+pad as a guide. For example, if they enter 7, they have chosen the top left corner of the board.
+    - The game should prevent players from choosing squares that are already occupied. If such a move
+is attempted, the player should be told of the problem and given another chance.
+    - The game must detect when a player wins or when the board is full with no winner (draw/”cat”).
+    - When the game is over, the outcome is displayed to the players.
+    - The state of the board must be displayed to the player after each play. Hint: One possible way to
+show the board could be like this:
+        ```
+        It is X's turn.
+        | X |
+        ---+---+---
+        | O | X
+        ---+---+---
+        O | |
+        What square do you want to play in?
+        ```
+
+
+
 
 Chapter 25: Inheritance
     1. Shape Hierarchy – Base Shape, derived Circle and Rectangle.
