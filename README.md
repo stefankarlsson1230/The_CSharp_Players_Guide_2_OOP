@@ -191,6 +191,20 @@ current passcode and new passcode. Only change the passcode if the current passc
 the user to attempt the four transitions described above (open, close, lock, unlock) and change the
 code by typing in text commands.
 
+- [ ] Project 5 - The Password Validator
+  - You must create a class that can determine if a password is valid (meets the rules
+defined for a legitimate password).The following rules must apply:
+    - Passwords must be at least 6 letters long and no more than 13 letters long.
+    - Passwords must contain at least one uppercase letter, one lowercase letter, and one number.
+    - Passwords cannot contain a capital T or an ampersand (&) 
+    - Hints: 
+      - foreach with a string lets you get its characters!
+      - char has static methods to categorize letters! char.IsUpper('A'), char.IsLower('a'), char.IsDigit('0')
+    - Objectives: 
+      - Define a new PasswordValidator class that can be given a password and determine if the
+password follows the rules above. 
+      - Make your main method loop forever, asking for a password and reporting whether the password is
+allowed using an instance of the PasswordValidator class.
 
 ### From ChatGPT
     1. Point Methods – Add Distance() and Translate() to Point.
