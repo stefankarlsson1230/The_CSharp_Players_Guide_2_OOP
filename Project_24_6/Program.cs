@@ -11,9 +11,9 @@ int input;
 string state;
 
 // Gameloop
-while(true)
+while (true)
 {
-    foreach(Player player in players)
+    foreach (Player player in players)
     {
         Console.Clear();
         Console.WriteLine($"It is {player.Marker}'s turn.");
@@ -77,7 +77,7 @@ internal class Board
 
         for (int i = 0; i < 3; i++)
         {
-            for(int j = 0; j < 3; j++)
+            for (int j = 0; j < 3; j++)
             {
                 _board[i, j] = ' ';
             }
@@ -96,9 +96,9 @@ internal class Board
             for (int j = 0; j < 3; j++)
             {
                 row += $" {_board[i, j]} ";
-                if(j != 2) row += "|";
+                if (j != 2) row += "|";
             }
-            
+
             if (i != 2)
             {
                 row += '\n';
@@ -115,7 +115,7 @@ internal class Board
 
     public bool Play(int row, int col, char marker)      // Input coordinates. Return true if legal move
     {
-        if(_board[row, col] != ' ') return false;
+        if (_board[row, col] != ' ') return false;
         else
         {
             _board[row, col] = marker;
@@ -130,10 +130,10 @@ internal class Board
         if ((_board[0, 2] == marker) && (_board[1, 1] == marker) && (_board[2, 0] == marker)) return "win";
 
         if ((_board[0, 0] == marker) && (_board[0, 1] == marker) && (_board[0, 2] == marker)) return "win";
-        if ((_board[1, 0] == marker) && (_board[1, 1] == marker) && (_board[1, 2] == marker)) return "win"; 
+        if ((_board[1, 0] == marker) && (_board[1, 1] == marker) && (_board[1, 2] == marker)) return "win";
         if ((_board[2, 0] == marker) && (_board[2, 1] == marker) && (_board[2, 2] == marker)) return "win";
 
-        if ((_board[0, 0] == marker) && (_board[1, 0] == marker) && (_board[2, 0] == marker)) return "win"; 
+        if ((_board[0, 0] == marker) && (_board[1, 0] == marker) && (_board[2, 0] == marker)) return "win";
         if ((_board[0, 1] == marker) && (_board[1, 1] == marker) && (_board[2, 1] == marker)) return "win";
         if ((_board[0, 2] == marker) && (_board[1, 2] == marker) && (_board[2, 2] == marker)) return "win";
 
@@ -189,6 +189,3 @@ internal class Player
         }
     }
 }
-
-
-

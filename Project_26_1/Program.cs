@@ -6,7 +6,8 @@ InventoryItem? item;
 while (true)
 {
     Console.Clear();
-    Console.WriteLine($"Status of the pack:  Items: {pack.NoOfItems}/{pack.Items.Length}  Weight: {pack.CurrentWeight:0.00}/{pack.MaxWeight:0.00}  Volume: {pack.CurrentVolume:0.00}/{pack.MaxVolume:0.00}\n");
+    Console.WriteLine($"Status of the pack:  Items: {pack.NoOfItems}/{pack.Items.Length}  Weight: {pack.CurrentWeight:0.00}/{pack.MaxWeight:0.00}  Volume: {pack.CurrentVolume:0.00}/{pack.MaxVolume:0.00}");
+    Console.WriteLine(pack.ToString());
     Console.WriteLine("Item you can add: 1.An Arrow  2.A Bow  3.A Rope  4.Water  5.Food  6.A Sword");
     Console.Write("Item: ");
     input = Console.ReadLine();
@@ -22,12 +23,12 @@ while (true)
         _ => null,
     };
 
-    if(item == null )
+    if (item == null)
     {
         Console.WriteLine("That is not a valid choice! Press any key to continue");
         Console.ReadKey();
     }
-    else if(!pack.Add(item))
+    else if (!pack.Add(item))
     {
         Console.WriteLine("Sorry that item will not fit in the pack! Press any key to continue");
         Console.ReadKey();
@@ -51,41 +52,47 @@ internal class InventoryItem
 }
 
 
-internal class Arrow: InventoryItem
+internal class Arrow : InventoryItem
 {
     public Arrow() : base(0.1f, 0.05f) { }
+    public override string ToString() => "Arrow";
 }
 
 internal class Bow : InventoryItem
 {
     public Bow() : base(1f, 4f) { }
+    public override string ToString() => "Bow";
 }
 
 internal class Rope : InventoryItem
 {
     public Rope() : base(1f, 1.5f) { }
+    public override string ToString() => "Rope";
 }
 
 internal class Water : InventoryItem
 {
     public Water() : base(2f, 3f) { }
+    public override string ToString() => "Water";
 }
 
 internal class Food : InventoryItem
 {
     public Food() : base(1f, 0.5f) { }
+    public override string ToString() => "Food";
 }
 
 internal class Sword : InventoryItem
 {
     public Sword() : base(5f, 3f) { }
+    public override string ToString() => "Sword";
 }
 
 
 internal class Pack
 {
     // Properties
-    public  InventoryItem[] Items { get; }
+    public InventoryItem[] Items { get; }
     public float MaxWeight { get; }
     public float MaxVolume { get; }
 
@@ -121,6 +128,18 @@ internal class Pack
             CurrentVolume += item.Volume;
             return true;
         }
+    }
+
+    public override string ToString()
+    {
+        string contents = "Pack containing:";
+
+        for (int i = 0; i < NoOfItems; i++)
+        {
+            contents += " " + Items[i].ToString();
+        }
+
+        return contents;
     }
 
 }

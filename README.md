@@ -262,13 +262,24 @@ limits of each.
 chosen from a menu.
 
 
+## Chapter 26: Polymorphism
+
+### From The Book
+- [x] Project 1 - Labeling Inventory
+  - Modify your inventory program from the previous chapter as described below.
+    - Override the existing ToString method (from the object base class) on all of your inventory item
+subclasses to give them a name. For example, new Rope().ToString() should return "Rope".
+    - Override ToString on the Pack class to display the contents of the pack. If a pack contains water,
+rope, and two arrows, then calling ToString on that Pack object could look like "Pack containing Water 
+Rope Arrow Arrow".
+    - Before the user chooses the next item to add, display the pack’s current contents via its new
+ToString method.
 
 
-Chapter 26: Polymorphism
+
+### From ChatGPT
     1. Abstract Base – Use Attack() as abstract method.
     2. Virtual Spell – Override CastSpell() in children.
-    3. Interface Weapon – Use IWeapon interface.
-    4. Strategy Pattern – Pass in delegate for move strategy.
     5. Type Array – Store base class but call derived behaviors.
 
 Chapter 27: Interfaces
