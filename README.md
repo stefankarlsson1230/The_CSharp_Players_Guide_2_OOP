@@ -335,12 +335,11 @@ class that no longer exists. You will also want to remove the override keywords 
 
 
 ### From ChatGPT
-    1. ILogger – Multiple classes implement Log() differently.
-    2. ISaveable – Add Save() and Load() methods.
-    3. IDrawable – Render shapes using shared interface.
-    4. Inventory System – Use interface to add/remove items.
-    5. Composite Interface – Implement multiple interfaces in one object.
+- [x] Project 2
+  - ILogger – Multiple classes implement Log() differently.
+  - Composite Interface – Implement multiple interfaces in one object.
 
+  
 Chapter 28: Structs
     1. Vector2 – Struct with X and Y, and Length() method.
     2. Point Immutable – Read-only struct.
