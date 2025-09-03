@@ -340,12 +340,17 @@ class that no longer exists. You will also want to remove the override keywords 
   - Composite Interface – Implement multiple interfaces in one object.
 
   
-Chapter 28: Structs
-    1. Vector2 – Struct with X and Y, and Length() method.
-    2. Point Immutable – Read-only struct.
-    3. Struct Copy Behavior – Copy and show difference.
-    4. Timer Struct – Store time intervals.
-    5. Rectangle Struct – Add Width, Height, Area.
+## Chapter 28: Structs
+
+### From The Book
+- [x] Project 1 - Room Coordinates
+  - Create a Coordinate struct that can represent a room coordinate with a row and column
+  - Ensure Coordinate is immutable.
+  - Make a method to determine if one coordinate is adjacent to another (differing only by a single row
+or column).
+  - Write a main method that creates a few coordinates and determines if they are adjacent to each
+other to prove that it is working correctly.
+
 
 Chapter 29: Records
     1. Contact Record – With Name, Phone.
