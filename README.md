@@ -321,7 +321,20 @@ new RobotCommand objects, use the robot’s Run method to execute them. For exampl
         ```
 
  
-Chapter 27: Interfaces
+## Chapter 27: Interfaces
+
+### From The Book
+- [x] Project 1 - Robotic Interface
+  - Building on your solution to the Old Robot challenge, perform the changes below:
+    - Change your abstract RobotCommand class into an IRobotCommand interface.
+    - Remove the unnecessary public and abstract keywords from the Run method.
+    - Change the Robot class to use IRobotCommand instead of RobotCommand.
+    - Make all of your commands implement this new interface instead of extending the RobotCommand
+class that no longer exists. You will also want to remove the override keywords in these classes.
+    - Ensure your program still compiles and runs.
+
+
+### From ChatGPT
     1. ILogger – Multiple classes implement Log() differently.
     2. ISaveable – Add Save() and Load() methods.
     3. IDrawable – Render shapes using shared interface.
