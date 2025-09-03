@@ -320,11 +320,7 @@ new RobotCommand objects, use the robot’s Run method to execute them. For exampl
         [-1 1 True]
         ```
 
-### From ChatGPT
-    1. Abstract Base – Use Attack() as abstract method.
-    2. Virtual Spell – Override CastSpell() in children.
-    5. Type Array – Store base class but call derived behaviors.
-
+ 
 Chapter 27: Interfaces
     1. ILogger – Multiple classes implement Log() differently.
     2. ISaveable – Add Save() and Load() methods.
