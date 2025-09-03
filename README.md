@@ -275,7 +275,7 @@ Rope Arrow Arrow".
     - Before the user chooses the next item to add, display the pack’s current contents via its new
 ToString method.
 
-- [ ] Project 2 - The Old Robot
+- [x] Project 2 - The Old Robot
   - You spot something shiny, half-buried in the mud. As you knock off the cakedon mud, you realize 
   that it seems like this old automaton might even be programmable if you can give it the proper commands. The automaton seems to be structured like this:
     ```
