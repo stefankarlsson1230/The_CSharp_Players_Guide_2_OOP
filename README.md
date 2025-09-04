@@ -377,7 +377,7 @@ create two variations on the basic sword using with expressions.
 ## Chapter 30: Generics
 
 ### From The Book
-- [ ] Project 1 - Colored Items
+- [x] Project 1 - Colored Items
   - You have a sword, a bow, and an axe in front of you, defined like this:
     ```
     public class Sword { }
