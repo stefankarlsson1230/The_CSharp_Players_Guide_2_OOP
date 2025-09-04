@@ -368,7 +368,7 @@ create two variations on the basic sword using with expressions.
     - Display all three sword instances with code like Console.WriteLine(original);.
 
 ### From ChatGPT
-- [ ] Project 2
+- [x] Project 2
   - Contact Record – With Name, Phone.
   - Equality Test – Compare two records.
   - With Expression – Clone record and change one field.
