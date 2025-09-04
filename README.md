@@ -398,13 +398,6 @@ ToString() on the item to get a text representation.)
 Display all three items to see each item displayed in its color.
 
 
-### From ChatGPT
-    1. Pair<T1, T2> – Hold two values of any type.
-    2. Generic Stack – Push and pop any type.
-    3. Swap<T> – Swap two values.
-    4. Constraints – Add where T : IComparable.
-    5. Repository<T> – Simulate data repository.
-
 Chapter 31: Fountain of Objects
     1. Grid Builder – Create grid of rooms.
     2. Movement System – Move through grid.
