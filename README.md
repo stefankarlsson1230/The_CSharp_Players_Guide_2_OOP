@@ -401,7 +401,7 @@ Display all three items to see each item displayed in its color.
 ## Chapter 31: Fountain of Objects
 
 ### From The Book
-- Project 1 - The Fountain of Objects
+- [x] Project 1 - The Fountain of Objects
   - The Fountain of Objects game is a 2D grid-based world full of rooms. Most rooms are empty, but a few
 are unique rooms. One room is the cavern entrance. Another is the fountain room, containing the
 Fountain of Objects.
@@ -464,13 +464,13 @@ in cyan, text describing entrance light in yellow, messages about the fountain i
         The Fountain of Objects has been reactivated, and you have escaped with your life!
         You win!
         ```
-      - Hint: You may find two-dimensional arrays (Level 12) helpful in representing a 2D grid-based game
+    - Hint: You may find two-dimensional arrays (Level 12) helpful in representing a 2D grid-based game
 world.
-      - Hint: Remember your training! You do not need to solve this entire problem all at once, and you do
+    - Hint: Remember your training! You do not need to solve this entire problem all at once, and you do
 not have to get it right in your first attempt. Pick an item or two to start and solve just those items.
 Rework until you are happy with it, then add the next item or two.
 
-  ![Gridmap](images/fountainOfObjects.PNG)
+![Gridmap](images/fountainOfObjects.PNG)
 
 
 
