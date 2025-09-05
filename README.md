@@ -472,6 +472,14 @@ Rework until you are happy with it, then add the next item or two.
 
 ![Gridmap](images/fountainOfObjects.PNG)
 
+- [x] Project 2 - Small, Medum or Large
+  - The larger the Cavern of Objects is, the more difficult the game becomes. The basic game only requires
+a small 4×4 world, but we will add a medium 6×6 world and a large 8×8 world for this challenge.
+  - Objectives:
+    - Before the game begins, ask the player whether they want to play a small, medium, or large game.
+Create a 4×4 world if they choose a small world, a 6×6 world if they choose a medium world, and an
+8×8 world if they choose a large world.
+    - Pick an appropriate location for both the Fountain Room and the Entrance room.
 
 
 
