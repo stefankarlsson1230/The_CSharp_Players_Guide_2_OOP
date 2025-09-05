@@ -415,8 +415,7 @@ room they are in and what dangers lurk in nearby rooms.
 others can be started. The requirements of this game are listed below.
   - Objectives:
     - The world consists of a grid of rooms, where each room can be referenced by its row and column.
-North is up, east is right, south is down, and west is left:
-    ![Gridmap](images\fountainOfObjects.PNG)
+North is up, east is right, south is down, and west is left.
     - The game’s flow works like this: The player is told what they can sense in the dark (see, hear, smell).
 Then the player gets a chance to perform some action by typing it in. Their chosen action is resolved
 (the player moves, state of things in the game changes, checking for a win or a loss, etc.). Then the
@@ -470,6 +469,8 @@ world.
       - Hint: Remember your training! You do not need to solve this entire problem all at once, and you do
 not have to get it right in your first attempt. Pick an item or two to start and solve just those items.
 Rework until you are happy with it, then add the next item or two.
+
+  ![Gridmap](images\fountainOfObjects.PNG)
 
 
 
