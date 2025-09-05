@@ -416,7 +416,7 @@ others can be started. The requirements of this game are listed below.
   - Objectives:
     - The world consists of a grid of rooms, where each room can be referenced by its row and column.
 North is up, east is right, south is down, and west is left:
-    - ![Gridmap](images\fountainOfObjects.PNG)
+    ![Gridmap](images\fountainOfObjects.PNG)
     - The game’s flow works like this: The player is told what they can sense in the dark (see, hear, smell).
 Then the player gets a chance to perform some action by typing it in. Their chosen action is resolved
 (the player moves, state of things in the game changes, checking for a win or a loss, etc.). Then the
