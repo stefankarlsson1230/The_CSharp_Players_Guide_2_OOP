@@ -470,7 +470,7 @@ world.
 not have to get it right in your first attempt. Pick an item or two to start and solve just those items.
 Rework until you are happy with it, then add the next item or two.
 
-  ![Gridmap](images\fountainOfObjects.PNG)
+  ![Gridmap](images/fountainOfObjects.PNG)
 
 
 
