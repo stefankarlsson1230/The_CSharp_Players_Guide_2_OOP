@@ -481,6 +481,17 @@ Create a 4×4 world if they choose a small world, a 6×6 world if they choose a me
 8×8 world if they choose a large world.
     - Pick an appropriate location for both the Fountain Room and the Entrance room.
 
+- [ ] Project 3 - Pits
+  - The Cavern of Objects is a dangerous place. Some rooms open up to bottomless pits. Entering a pit
+means death. The player can sense a pit is in an adjacent room because a draft of air pushes through the
+pits into adjacent rooms. Add pit rooms to the game. End the game if the player stumbles into one.
+  - Objectives:
+    - Add a pit room to your 4×4 cavern anywhere that isn’t the fountain or entrance room.
+    - Players can sense the draft blowing out of pits in adjacent rooms (all eight directions): “You feel a
+draft. There is a pit in a nearby room.”
+    - If a player ends their turn in a room with a pit, they lose the game.
+    - Note: When combined with the Small, Medium, or Large challenge, add one pit to the 4×4 world, two
+pits to the 6×6 world, and four pits to the 8×8 world, in locations of your choice.
 
 
 Chapter 32: Useful Types
