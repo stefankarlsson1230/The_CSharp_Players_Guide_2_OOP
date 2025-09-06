@@ -569,7 +569,7 @@ of what each does. The complete list of commands will depend on what challenges 
 ## Chapter 32: Useful Types
 
 ### From The Book
-- [ ] Project 1 - The Robot Pilot
+- [x] Project 1 - The Robot Pilot
   - When we first made the Hunting the Manticore game in Level 14, we required two human players: one to
 set up the Manticore’s range from the city and the other to destroy it. With Random, we can turn this
 into a single-player game by randomly picking the range for the Manticore.
@@ -577,7 +577,14 @@ into a single-player game by randomly picking the range for the Manticore.
     - Modify your Hunting the Manticore game to be a single-player game by having the computer pick a
 random range between 0 and 100.
 
-
+- [x] Project 2 - Time in the Cavern
+  - With DateTime and TimeSpan, you can track how much time a player spends in the Cavern of Objects
+to beat the game. With these tools, modify your Fountain of Objects game to display how much time a
+player spent exploring the caverns.
+  - Objectives:
+    - When a new game begins, capture the current time using DateTime.
+    - When a game finishes (win or loss), capture the current time.
+    - Use TimeSpan to compute how much time elapsed and display that to the player.
 
 ### From ChatGPT
     1. Dice Roller – Use Random class.
