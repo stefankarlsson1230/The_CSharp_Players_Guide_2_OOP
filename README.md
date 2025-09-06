@@ -528,7 +528,20 @@ when sensing surroundings that indicate that the player can smell the amarok nea
     - Note: When combined with the Small, Medium, or Large challenge, place two amaroks in the medium
 level and three in the large level in locations of your choosing.
 
+- [x] Project 6 - Getting Armed
+  - The player brings a bow and several arrows with them into the Caverns. The player can shoot arrows into
+the rooms around them, and if they hit a monster, they kill it, and it should no longer impact the game.
+  - Objectives:
+    - Add the following commands that allow a player to shoot in any of the four directions: shoot north,
+shoot east, shoot south, and shoot west. When the player shoots in one of the four directions, an arrow
+is fired into the room in that direction. If a monster is in that room, it is killed and should not affect
+the game anymore. They can no longer sense it, and it should not affect the player.
+    - The player only has five arrows and cannot shoot when they are out of arrows. Display the number
+of arrows the player has when displaying the game’s status before asking for their action.
 
+
+
+   
 Chapter 32: Useful Types
     1. Dice Roller – Use Random class.
     2. Date Difference – Use DateTime to count days.
