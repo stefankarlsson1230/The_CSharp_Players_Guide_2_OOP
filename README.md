@@ -513,6 +513,20 @@ stay on the map. (Clamp them to the map, wrap around to the other side, or any o
     - Note: When combined with the Small, Medium, or Large challenge, place one maelstrom into the
 medium-sized game and two into the large-sized game.
 
+- [x] Project 5 - Amaroks
+  - The Uncoded One has also placed amaroks in the caverns to protect the fountain from people like you.
+Amaroks are giant, rotting, wolf-like creatures that stalk the caverns. When players enter a room with an
+amarok, they are instantly killed, and the game is over. Players can smell an amarok in any adjacent room
+(all eight directions), which tells them that an amarok is nearby.
+  - Objectives:
+    - Amarok locations are up to you. Pick a room to place an amarok aside from the entrance or fountain
+room in the small 4×4 world.
+    - When a player is in one of the eight spaces adjacent to an amarok, a message should be displayed
+when sensing surroundings that indicate that the player can smell the amarok nearby. For example,
+“You can smell the rotten stench of an amarok in a nearby room.”
+    - When a player enters a room with an amarok, the player dies and loses the game.
+    - Note: When combined with the Small, Medium, or Large challenge, place two amaroks in the medium
+level and three in the large level in locations of your choosing.
 
 
 Chapter 32: Useful Types
