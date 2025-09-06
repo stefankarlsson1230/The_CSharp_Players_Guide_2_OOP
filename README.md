@@ -566,8 +566,20 @@ you have a limited supply.”
 of what each does. The complete list of commands will depend on what challenges you complete.
 
 
-   
-Chapter 32: Useful Types
+## Chapter 32: Useful Types
+
+### From The Book
+- [ ] Project 1 - The Robot Pilot
+  - When we first made the Hunting the Manticore game in Level 14, we required two human players: one to
+set up the Manticore’s range from the city and the other to destroy it. With Random, we can turn this
+into a single-player game by randomly picking the range for the Manticore.
+  - Objectives:
+    - Modify your Hunting the Manticore game to be a single-player game by having the computer pick a
+random range between 0 and 100.
+
+
+
+### From ChatGPT
     1. Dice Roller – Use Random class.
     2. Date Difference – Use DateTime to count days.
     3. Stopwatch – Time an operation with TimeSpan.
