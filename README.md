@@ -596,7 +596,10 @@ property.
     - Instead of looping three times, go until the user types stop. Then run all of the commands created.
 
 ### From ChatGPT
-    1. Dice Roller – Use Random class.
+- [x] Project 4 - Dice Roller
+  - Use Random class.
+
+
     2. Date Difference – Use DateTime to count days.
     3. Stopwatch – Time an operation with TimeSpan.
     4. GUID Generator – Generate a unique ID.
