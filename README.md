@@ -601,9 +601,8 @@ property.
 
 - [x] Project 5 - Date Difference
   - Use DateTime to count days.
-  
 
-    3. Stopwatch – Time an operation with TimeSpan.
-    4. GUID Generator – Generate a unique ID.
-    5. List Inventory – Add/remove items from a List<string>.
+- [x] Project 6 - Stopwatch
+  - Time an operation with TimeSpan.
+
 
